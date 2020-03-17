@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a0c5be2-aac0-4006-b302-8b48cd91c5c5" name="Default Changelist" comment="" />
+    <list default="true" id="5a0c5be2-aac0-4006-b302-8b48cd91c5c5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/CalculatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/CalculatorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/services/CalculatorImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/services/CalculatorImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/services/CalculatorImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/services/CalculatorImplTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +31,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1ZFUz2lvU34V9rTfSDxauJOh6x6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -42,15 +51,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in Calculator (2)">
-    <configuration name="All in Calculator (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Calculator" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CalculatorImplTest.testGetPrimaryNumberSumShouldReturnZeroWhenNumberIsOne">
     <configuration name="All in Calculator (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Calculator" />
       <option name="PACKAGE_NAME" value="" />
@@ -59,15 +60,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in Calculator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Calculator" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorImplTest.testGetPrimaryNumberSumShouldReturnFourtyOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Calculator" />
       <extension name="coverage">
         <pattern>
@@ -77,13 +70,28 @@
       </extension>
       <option name="PACKAGE_NAME" value="services" />
       <option name="MAIN_CLASS_NAME" value="services.CalculatorImplTest" />
-      <option name="METHOD_NAME" value="testGetPrimaryNumberSumShouldReturnFourtyOne" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorImplTest.testGetPrimaryNumberSumShouldReturnOneThousandAndSixtyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.CalculatorImplTest" />
+      <option name="METHOD_NAME" value="testGetPrimaryNumberSumShouldReturnOneThousandAndSixtyTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorImplTest.testGetPrimaryNumberSumShouldReturnOneTousandAndSixty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorImplTest.testGetPrimaryNumberSumShouldReturnZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Calculator" />
       <extension name="coverage">
         <pattern>
@@ -93,7 +101,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="services" />
       <option name="MAIN_CLASS_NAME" value="services.CalculatorImplTest" />
-      <option name="METHOD_NAME" value="testGetPrimaryNumberSumShouldReturnOneTousandAndSixty" />
+      <option name="METHOD_NAME" value="testGetPrimaryNumberSumShouldReturnZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorImplTest.testGetPrimaryNumberSumShouldReturnZeroWhenNumberIsOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.CalculatorImplTest" />
+      <option name="METHOD_NAME" value="testGetPrimaryNumberSumShouldReturnZeroWhenNumberIsOne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorImplTest.testGetPrimaryNumberSumShouldReturnZeroWhenNumberIsOne" />
+        <item itemvalue="JUnit.CalculatorImplTest" />
+        <item itemvalue="JUnit.CalculatorImplTest.testGetPrimaryNumberSumShouldReturnZero" />
+        <item itemvalue="JUnit.CalculatorImplTest.testGetPrimaryNumberSumShouldReturnOneThousandAndSixtyTest" />
         <item itemvalue="JUnit.All in Calculator (2)" />
-        <item itemvalue="JUnit.All in Calculator (1)" />
-        <item itemvalue="JUnit.All in Calculator" />
-        <item itemvalue="JUnit.CalculatorImplTest.testGetPrimaryNumberSumShouldReturnOneTousandAndSixty" />
-        <item itemvalue="JUnit.CalculatorImplTest.testGetPrimaryNumberSumShouldReturnFourtyOne" />
       </list>
     </recent_temporary>
   </component>
@@ -135,22 +159,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1584440824586">
+    <state width="1493" height="263" key="GridCell.Tab.0.bottom" timestamp="1584459906307">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1584440824586" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1584440824586">
+    <state width="1493" height="263" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1584459906307" />
+    <state width="1493" height="263" key="GridCell.Tab.0.center" timestamp="1584459906306">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1584440824586" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1584440824585">
+    <state width="1493" height="263" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1584459906306" />
+    <state width="1493" height="263" key="GridCell.Tab.0.left" timestamp="1584459906306">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1584440824585" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1584440824586">
+    <state width="1493" height="263" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1584459906306" />
+    <state width="1493" height="263" key="GridCell.Tab.0.right" timestamp="1584459906306">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1584440824586" />
+    <state width="1493" height="263" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1584459906306" />
     <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1584440765377">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

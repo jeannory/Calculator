@@ -10,6 +10,9 @@ public class CalculatorImpl {
      */
 
     public int getPrimaryNumberSum(final int number){
+        if(number <=1){
+            return 0;
+        }
         int i = 1;
         int sum = 0;
         while(i <= (number + 1)){

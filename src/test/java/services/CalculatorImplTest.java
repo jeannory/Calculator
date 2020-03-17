@@ -130,4 +130,31 @@ public class CalculatorImplTest {
         //then
         Assert.assertEquals(1060, result);
     }
+
+    @Test
+    public void testGetPrimaryNumberSumShouldReturnZeroWhenNumberIsNegative(){
+        //given && when
+        int result = calculator.getPrimaryNumberSum(-97);
+
+        //then
+        Assert.assertEquals(0, result);
+    }
+
+    @Test
+    public void testGetPrimaryNumberSumShouldReturnZeroWhenNumberIsOne(){
+        //given && when
+        int result = calculator.getPrimaryNumberSum(1);
+
+        //then
+        Assert.assertEquals(0, result);
+    }
+
+    @Test
+    public void testGetPrimaryNumberSumShouldReturnZeroWhenNumberIsZero(){
+        //given && when
+        int result = calculator.getPrimaryNumberSum(0);
+
+        //then
+        Assert.assertEquals(0, result);
+    }
 }
